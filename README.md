@@ -27,6 +27,8 @@ ERROR – Incorrect PIN entered
 LOCKOUT – Security lockout state
 
 State Diagram
+<img width="753" height="370" alt="state_diagram" src="https://github.com/user-attachments/assets/6feae1d0-2ac3-4701-a21a-4593db387a4d" />
+
 
 🔐 Security Mechanism
 Wrong attempts are tracked using a counter.
