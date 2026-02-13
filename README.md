@@ -17,8 +17,7 @@ Fully simulated in Xilinx Vivado
 
 🧠 FSM Architecture
 The system is implemented using a synchronous FSM with clearly defined states.
-States
-
+States:
 IDLE – Waiting for user interaction
 ENTERING – Capturing 4-digit PIN input
 VERIFY – Comparing entered PIN with stored PIN
@@ -27,8 +26,8 @@ ERROR – Incorrect PIN entered
 LOCKOUT – Security lockout state
 
 State Diagram
-<img width="753" height="370" alt="state_diagram" src="https://github.com/user-attachments/assets/6feae1d0-2ac3-4701-a21a-4593db387a4d" />
 
+<img width="753" height="370" alt="state_diagram" src="https://github.com/user-attachments/assets/6feae1d0-2ac3-4701-a21a-4593db387a4d" />
 
 🔐 Security Mechanism
 Wrong attempts are tracked using a counter.
@@ -48,7 +47,13 @@ PIN can be updated using the set_pin signal
 
 📊 Simulation Results (Vivado Behavioral Simulation)
 Waveform Output
+
+<img width="1631" height="1078" alt="waveform" src="https://github.com/user-attachments/assets/a0675053-b7c4-4a64-8f48-9e7cbdae0b97" />
+
 Waveform Analysis
+
+<img width="738" height="563" alt="waveform_analysis" src="https://github.com/user-attachments/assets/9cfdfa8a-ee34-4a15-92ef-f458f614b50b" />
+
 Simulation verifies:
 Correct PIN unlocks system
 Incorrect PIN triggers ERROR
