@@ -46,6 +46,7 @@ Stored data can be read using the read signal
 PIN can be updated using the set_pin signal
 
 📊 Simulation Results (Vivado Behavioral Simulation)
+
 Waveform Output
 
 <img width="1631" height="1078" alt="waveform" src="https://github.com/user-attachments/assets/a0675053-b7c4-4a64-8f48-9e7cbdae0b97" />
